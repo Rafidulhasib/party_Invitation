@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 
+.hero {
+  width: 1500px;
+  height: 700px;
+  margin: 90px;
+  background-image: url(./images/Banner\ Image.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero h2 {
+  font-size: 40px;
+  color: aliceblue;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero p {
+  padding-top: 70px;
+  font-size: 70px;
+  color: aliceblue;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.full-banner-section {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 30px;
+}
+
+.banner-image {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background: url(./images/Banner\ Image.png) no-repeat center;
+  height: 600px;
+  width: 1320px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.bg-shadow {
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.403));
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.7;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+.container h1 {
+  font-size: 40px;
+}
+.container p {
+  font-size: 80px;
+}
+
+/* Offer Section Style */
+
+.full-offer-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.full-offer-content h3 {
+  color: red;
+  padding-bottom: 40px;
+  font-size: 65px;
+  font-weight: 700;
+}
+.full-offer-content p {
+  color: red;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.full-offer-content h2 {
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+
+/* welcome banner */
+
+.welcome-full-banner-section {
+  /* position: relative; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-banner-image {
+  position: relative;
+  background: url(./images/Vectorrr.png) no-repeat center;
+  height: 600px;
+  width: 1320px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.banner-image-shadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* background: rgb(238, 231, 231); */
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 9, 0.896) 0%,
+    rgba(0, 0, 0, 0.686) 75%,
+    rgba(0, 0, 0, 0.192) 100%
+  );
+}
+.welcome-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* gap: 50px; */
+}
+.Welcome-text {
+  color: aliceblue;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.Welcome-text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.Welcome-text p {
+  padding-bottom: 100px;
+}
+
+.join-now-button {
+  background-color: red;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 700;
+  height: 50px;
+  width: 120px;
+  border-radius: 30px;
+  border: none;
+}
+
+.image2024 {
+  padding-left: 150px;
+}
+
+/* Place and date */
+
+.place-full-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.place-text {
+  /* position: absolute; */
+  height: 100%;
+  width: 100%;
+  /* background: rgb(238, 231, 231); */
+  background: linear-gradient(
+    3deg,
+    rgba(238, 231, 231, 0.2) 0%,
+    rgba(250, 0, 0, 0.2) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 482px;
+  width: 1320px;
+  border-radius: 20px;
+}
+.red-text {
+  color: red;
+}
+
+/* Coming soon */
+.coming-soon-full-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coming-soon-text {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 482px;
+  width: 1320px;
+  padding: 100px;
+}
+
+.black-text-coming {
+  color: black;
+  font-size: 60px;
+  font-weight: 700;
+}
+.coming-p-text {
+  color: rgb(93, 91, 91);
+  font-size: 20px;
+  font-weight: 300;
+}
+.red2024 {
+  color: red;
+  font-size: 50px;
+  font-weight: 600;
+}
+.text2024 {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+}
+
+.circle-image img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  border-radius: 50%;
+  border: 15px solid red;
+}
+
+/* Holiday sale */
+
+.holiday-full-section {
+  height: 987px;
+  width: 1320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.holiday-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.holiday-black-text {
+  font-size: 30px;
+  font-weight: 400;
+}
+.holiday-red-text {
+  color: red;
+  font-size: 60px;
+  font-weight: 900;
+}
+.holiday-sale-fifty {
+  color: black;
+  font-size: 60px;
+  font-weight: 900;
+}
