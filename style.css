@@ -366,3 +366,57 @@
   flex-wrap: wrap;
   gap: 10px;
 }
+
+/* newsletter section style */
+
+.newsletter-full-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-content {
+  background-color: rgb(246, 220, 220);
+  height: 620px;
+  width: 1320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 45px;
+}
+.newsletter-black-heading {
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.newsletter-paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(69, 68, 68);
+  text-align: center;
+  padding-left: 40px;
+  padding-left: 40px;
+  padding-bottom: 80px;
+}
+.input-section {
+  display: flex;
+}
+.input {
+  height: 40px;
+  width: 250px;
+  font-size: 20px;
+  padding-left: 5px;
+}
+.Subscribe {
+  height: 44px;
+  width: 130px;
+  border-right: 40px;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  background-color: red;
+  font-size: 20px;
+  font-weight: 400;
+  color: aliceblue;
+}
